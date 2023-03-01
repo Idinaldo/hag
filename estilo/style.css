@@ -95,3 +95,7 @@ section#img02 {
     padding: 10px;
     font-size: 3vw;
  }
+
+ footer > p {
+   font-size: 2.5vw;
+ }
