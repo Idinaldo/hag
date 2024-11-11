@@ -1,2 +1,5 @@
 # ignoring .vscode folder
 .vscode/
+
+# ignoring node_modules folder
+node_modules/

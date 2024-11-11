@@ -4,27 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cordel Moderno</title>
-    <link rel="stylesheet" href="estilo/style.css">
+    <title>Angela Davis</title>
+    <link rel="stylesheet" href="static/styles/style.css">
 </head>
-<body>
+<body id="body">
+    <script>
+        /*
+        var toggleChangePage = false;
+        const alertFunction =  () => {
+                alert("WAIT")
+        }
+        if (toggleChangePage == true) 
+        {
+            document.removeEventListener('scroll', alertFunction)
+        }
+        else
+        {
+            document.addEventListener('scroll', alertFunction);
+            toggleChangePage = true;
+        }
+        
+        // bootstrap (origina) code
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+        
+
+        // 1st stackOverFlow code
+        $(function () {
+            $("[rel='tooltip']").tooltip();
+        });
+        */
+        $(document).ready(function() {
+            $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+        });
+    </script>
     <header>
-        <h1>Cordel Moderno</h1>
+        <h1>Consciência Negra - Angela Davis</h1>
         <p>
-            Por <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank">Milton Duarte</a>
+            Por <a href="team.html">Equipe HAG</a>
         </p>
     </header>
-    <main>
+    <main id="main">
         <section class="normal">
+            <h2>Quem é Angela Davis?</h2>
+            <br>
             <p>
-                Estou ficando cansado <br>
-                Da tal tecnologia <br>
-                Só se fala por e-mail <br>
-                Mensagem curta e fria <br>
-                Twitter e Facebook <br>
-                Antes que eu caduque <br>
-                Vou dizer tudo em poesia.
+                Angela Yvonne Davis, uma filósofa e ativista, conhecida por sua luta anticapitalista,
+                antirracista e feminista, nasceu em 26 de janeiro de 1944 na cidade de Birmingham,
+                Alabama, região Sul dos Estados Unidos. Filha mais velha de Sally e Frank Davis, 
+                Angela Davis cresceu em uma família politicamente ativa durante o período de vigência
+                das leis de segregação Jim Crow. Seus pais eram professores, participavam de movimentos
+                antirracistas como a NAACP (Associação Nacional para o Progresso de Pessoas de Cor) e 
+                tinham como amigos próximos integrantes do Partido Comunista. Portanto, não foi inesperado
+                o seu envolvimento na luta pelos direitos civis, uma vez que essa consciência política 
+                foi desenvolvida desde a sua infância.
             </p>
+            <!--<p class="muted">Placeholder text to demonstrate some <a href="#" data-bs-toggle="tooltip" data-bs-title="Default tooltip">inline links</a> with tooltips.</p>-->
         </section>
 
         <section class="imagem" id="img01">
